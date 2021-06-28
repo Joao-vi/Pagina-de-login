@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+:root {
+    --Montserrat: "Montserrat", cursive;
+    --Lobster: "Lobster", cursive;
+}
+.container-position {
+     background-color: #051937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 610px;
+}
+.cont-container {
+    width: 54%;
+    height: 50%;
+    background-color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.col1 {
+    padding: 1rem;
+    background-image: url('/assets/Wave.png');
+    background-repeat: no-repeat;
+}
+.col1 h4 {
+    font-family: var(--Montserrat);
+    color: white;
+}
+.col1 p {
+    font-family: var(--Lobster);
+    margin-right: 2rem;
+}
+.cta-social {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+ 
+.owl-carousel img {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+.owl-dots {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.2rem;
+    height: 20px;
+    transform: translateY(-240px);
+    position: fixed;
+}
+.owl-dots button {
+    background: white!important;
+    width: 20px;
+    height: 20px;
+    margin: 0.3rem 0;
+    border-radius: 100%;
+    
+}
+.owl-dots button span {
+    
+    background:  white !important;
+    margin: 0rem 0.6rem !important;
+}
+.owl-dots .active {
+    border: 1px solid #ffd765 !important;
+}
+.owl-dots .active span {
+    background: #ffd765 !important;
+    margin: 0.3rem 0.5rem !important;
+}
+
+
+
+/* column 2*/
+.col2 {
+    position: relative;
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.btn {
+    background-color: #2b5876;
+    color: white;
+    font-family: var(--Montserrat);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 4px 7px rgba(27, 27, 27, 0.534);
+    border-radius: 4rem;
+    max-width: max-content;
+    padding: .4rem 1.3rem;
+}
+ .login-area {
+   position: absolute;
+   left: 0;
+   width: 100%;
+ }
+.login-area button {
+    background-color: #2b5876;
+    color: white;
+    font-family: var(--Montserrat);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 4px 7px rgba(27, 27, 27, 0.534);
+    border-radius: 4rem;
+    max-width: max-content;
+    padding: .8rem 5rem;
+    margin-left: 2rem;
+}
+.text {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+h6 {
+    margin-left: 1rem;
+    font-family: var(--Lobster);
+    color: #444444d2;
+}
+h3 {
+    font-family: var(--Montserrat);
+}
+.login-box input {
+    overflow: hidden;
+    border: none;
+    font-family: var(--Montserrat);
+    font-size: .9rem;
+}
+.login-box {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0,0,0,0.329);
+    margin: 1rem 0;
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    width: 86%;
+    
+}
